@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Shizuru&display=swap');
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  background: url(https://image.shutterstock.com/image-illustration/rose-gold-gradient-foil-abstract-260nw-759878317.jpg);
+  background-size: cover;
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Barriecito', cursive;
+    font-size: 80px;
+    margin-top: 20%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color:rgb(240, 18, 111);
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(240, 18, 111);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+font-family: 'Barriecito', cursive;;
+  margin-top: 15px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
